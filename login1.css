@@ -1,0 +1,173 @@
+*{    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    width: 100%;
+    background: /*linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)),*/url(WhatsApp\ Image\ 2023-10-15\ at\ 15.17.39_4a2bc1ad.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: aliceblue;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: brown;
+}
+
+.content{
+    width: 525px;
+    height: auto;
+    margin: 50px;
+    color: white;
+}
+
+.content.par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    margin-top: 100px;
+    font-size: 20px;
+    color: white;
+}
+
+.temperature{
+    margin-left: auto;
+    left: 650px;
+    color: beige;
+}
+
+.humidity{
+    margin-right: auto;
+    right: 650px;
+    color: beige;
+
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(rgba(0,0,0,0.8)50%),rgba(0,0,0,0.8);
+    position: absolute;
+    top: 175px;
+    left: 650px;
+    border-bottom: 10px;
+    padding: 15px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: blue;
+    font-size: 22px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 2px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+     border-bottom: 1px solid ;
+     border-top: none;
+     border-right: none;
+     border-left: none;
+     color: blue;
+     font-size: 15px;
+     letter-spacing: 1px;
+     margin-top: 30px;
+     font-family: sans-serif;
+}
+
+.form input.focus{
+    outline: none;
+}
+
+::placeholder{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: blue;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.btnn:hover{
+    background: white;
+    color: blue;
+}
+
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link a{
+    text-decoration: none;
+    color: blue;
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    
+}
