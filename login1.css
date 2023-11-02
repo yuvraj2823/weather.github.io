@@ -92,7 +92,24 @@ ul li a:hover{
     margin-right: auto;
     right: 650px;
     color: beige;
+}
 
+.pressure{
+    margin-right: auto;
+    right: 650px;
+    color: beige;
+}
+
+.UV{
+    margin-right: auto;
+    right: 650px;
+    color: beige;
+}
+
+.air{
+    margin-right: auto;
+    right: 650px;
+    color: beige;
 }
 .form{
     width: 250px;
@@ -171,3 +188,8 @@ ul li a:hover{
     text-align: center;
     
 }
+
+
+
+
+
